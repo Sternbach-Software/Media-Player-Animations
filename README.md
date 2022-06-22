@@ -4,7 +4,7 @@ A repository of XML animations relevant to media players (e.g. rewind, fast-forw
 ## Play/Pause
 
 
-![https://images.videolan.org/images/libvlc_stack.png](https://github.com/shmueldabomb441/MediaPlayerAnimations/blob/01660fb905f98a10f699ab8a40aa73c360d3616e/play_pause.gif)
+![GIF](https://github.com/shmueldabomb441/MediaPlayerAnimations/blob/01660fb905f98a10f699ab8a40aa73c360d3616e/play_pause.gif)
 
 
 Credits: https://github.com/videolan/vlc-android
@@ -132,7 +132,7 @@ Credits: https://github.com/videolan/vlc-android
 
 ## Rewind
 
-![LibVLC stack](https://images.videolan.org/images/libvlc_stack.png)
+![GIF](https://github.com/shmueldabomb441/MediaPlayerAnimations/blob/4301ea88b7718a28e6482bf8ad61d7cc8b81a7cd/fast_forward_gif.gif)
 
 ## Fast-forward
 
