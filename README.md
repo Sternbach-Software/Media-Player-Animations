@@ -1,7 +1,7 @@
 # MediaPlayerAnimations
 A repository of XML animations relevant to media players (e.g. rewind, fast-forward, play/pause, etc.). I struggled to find these online until I decided to make my own.
 
-##Play/Pause
+## Play/Pause
 
 
 ![LibVLC stack](https://images.videolan.org/images/libvlc_stack.png)
@@ -9,7 +9,7 @@ A repository of XML animations relevant to media players (e.g. rewind, fast-forw
 
 Credits: https://github.com/videolan/vlc-android
 
-###/drawable/anim_play_pause.xml
+### /drawable/anim_play_pause.xml
 
 ```
 <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
@@ -62,7 +62,7 @@ Credits: https://github.com/videolan/vlc-android
 ```
 
 
-###/drawable/anim_pause_play.xml
+### /drawable/anim_pause_play.xml
 
 ```
 <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
@@ -116,7 +116,7 @@ Credits: https://github.com/videolan/vlc-android
 </animated-vector>
 ```
 
-###Kotlin
+### Kotlin
 
 ```
         val playToPause = AnimatedVectorDrawableCompat.create(this, R.drawable.anim_play_pause)!!
@@ -130,10 +130,10 @@ Credits: https://github.com/videolan/vlc-android
         }
 ```
 
-##Rewind
+## Rewind
 
 ![LibVLC stack](https://images.videolan.org/images/libvlc_stack.png)
 
-##Fast-forward
+## Fast-forward
 
 ![LibVLC stack](https://images.videolan.org/images/libvlc_stack.png)
