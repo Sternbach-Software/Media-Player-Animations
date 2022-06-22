@@ -137,7 +137,7 @@ Credits: https://github.com/videolan/vlc-android
 
 You can change how far it rotates by editing the `toValue`. You can change the icon that rotates to a different icon (with a different interval) without changing the animation by just swapping out the `drawable` value and adding the `group` tag to the new animation.
 
-### drawable/ic_rewind.xml
+### /drawable/ic_rewind.xml
 
 ```
 <vector android:height="48dp" android:tint="#000000"
@@ -155,7 +155,7 @@ You can change how far it rotates by editing the `toValue`. You can change the i
 </vector>
 ```
 
-### animator/animator_rewind.xml
+### /animator/animator_rewind.xml
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
