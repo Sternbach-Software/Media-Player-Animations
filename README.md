@@ -190,4 +190,52 @@ You can change how far it rotates by editing the `toValue`. You can change the i
 
 ## Fast-forward
 
+See note to [Rewind](#rewind) for how to change the seconds interval text inside
+
 ![GIF](https://github.com/shmueldabomb441/MediaPlayerAnimations/blob/4301ea88b7718a28e6482bf8ad61d7cc8b81a7cd/fast_forward_gif.gif)
+
+### /drawable/ic_forward.xml
+
+```
+<vector android:height="48dp" android:tint="#000000"
+    android:viewportHeight="24" android:viewportWidth="24"
+    android:width="48dp" xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<group
+		android:name="rotationGroup"
+		android:pivotX="12"
+		android:pivotY="13">
+	<path android:fillColor="@android:color/white" android:pathData="M18,13c0,3.31 -2.69,6 -6,6s-6,-2.69 -6,-6s2.69,-6 6,-6v4l5,-5l-5,-5v4c-4.42,0 -8,3.58 -8,8c0,4.42 3.58,8 8,8s8,-3.58 8,-8H18z"/>
+	</group>
+	<path android:fillColor="@android:color/white" android:pathData="M10.86,15.94l0,-4.27l-0.09,0l-1.77,0.63l0,0.69l1.01,-0.31l0,3.26z"/>
+    <path android:fillColor="@android:color/white" android:pathData="M12.25,13.44v0.74c0,1.9 1.31,1.82 1.44,1.82c0.14,0 1.44,0.09 1.44,-1.82v-0.74c0,-1.9 -1.31,-1.82 -1.44,-1.82C13.55,11.62 12.25,11.53 12.25,13.44zM14.29,13.32v0.97c0,0.77 -0.21,1.03 -0.59,1.03c-0.38,0 -0.6,-0.26 -0.6,-1.03v-0.97c0,-0.75 0.22,-1.01 0.59,-1.01C14.07,12.3 14.29,12.57 14.29,13.32z"/>
+</vector>
+```
+
+### /animator/animator_fast_forward.xml
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	<objectAnimator
+		android:duration="200"
+		android:propertyName="rotation"
+		android:valueFrom="0"
+		android:valueTo="45"
+		android:repeatMode="reverse"
+		android:repeatCount="1"
+		/>
+</set>
+```
+
+### /drawable/anim_forward.xml
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+	android:drawable="@drawable/ic_baseline_forward_10" >
+	<target
+		android:name="rotationGroup"
+		android:animation="@animator/animation_fast_forward" />
+</animated-vector>
+```
