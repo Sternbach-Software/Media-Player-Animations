@@ -263,3 +263,6 @@ See note to [Rewind](#rewind) for how to customize the animation.
 		android:animation="@animator/animator_fast_forward" />
 </animated-vector>
 ```
+
+### Kotlin
+See [Rewind#Kotlin](#rewind#kotlin)
