@@ -140,7 +140,11 @@ Credits: https://github.com/videolan/vlc-android
 ![GIF](https://github.com/shmueldabomb441/MediaPlayerAnimations/blob/4301ea88b7718a28e6482bf8ad61d7cc8b81a7cd/rewind_gif.gif)
 
 
-You can change how far it rotates by editing the value of `android:valueTo`. You can change the icon that rotates to a different icon (with a different interval) without changing the animation by just swapping out the `android:drawable="@drawable/ic_rewind"` value in `anim_rewind.xml` and adding the `group` tag to the new icon in the same place as it is in `ic_rewind.xml`.
+You can change how far it rotates by editing the value of `android:valueTo`. 
+
+You can change the icon that rotates to a different icon (with a different interval) without changing the animation by just swapping out the `android:drawable="@drawable/ic_rewind"` value in `anim_rewind.xml` and adding the `group` tag to the new icon in the same place as it is in `ic_rewind.xml`.
+
+Note that the above GIF animation is a slowed-down version of the actual animation. To adjust the animation speed, change the milliseconds value of `android:duration="200"` in `animator_rewind.xml`. 
 
 ### /drawable/ic_rewind.xml
 
@@ -210,7 +214,7 @@ You can change how far it rotates by editing the value of `android:valueTo`. You
 
 ## Fast-forward
 
-See note to [Rewind](#rewind) for how to change the seconds interval text inside
+See note to [Rewind](#rewind) for how to customize the animation
 
 ![GIF](https://github.com/shmueldabomb441/MediaPlayerAnimations/blob/4301ea88b7718a28e6482bf8ad61d7cc8b81a7cd/fast_forward_gif.gif)
 
