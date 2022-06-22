@@ -265,4 +265,4 @@ See note to [Rewind](#rewind) for how to customize the animation.
 ```
 
 ### Kotlin
-See [Rewind#Kotlin](#rewind#kotlin)
+See [Rewind#Kotlin](#kotlin-1)
