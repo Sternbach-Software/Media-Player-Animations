@@ -140,7 +140,7 @@ Credits: https://github.com/videolan/vlc-android
 ![GIF](https://github.com/shmueldabomb441/MediaPlayerAnimations/blob/4301ea88b7718a28e6482bf8ad61d7cc8b81a7cd/rewind_gif.gif)
 
 
-You can change how far it rotates by editing the `toValue`. You can change the icon that rotates to a different icon (with a different interval) without changing the animation by just swapping out the `android:drawable="@drawable/ic_rewind"` value in `anim_rewind.xml` and adding the `group` tag to the new icon in the same place as it is in `ic_rewind.xml`.
+You can change how far it rotates by editing the value of `android:valueTo`. You can change the icon that rotates to a different icon (with a different interval) without changing the animation by just swapping out the `android:drawable="@drawable/ic_rewind"` value in `anim_rewind.xml` and adding the `group` tag to the new icon in the same place as it is in `ic_rewind.xml`.
 
 ### /drawable/ic_rewind.xml
 
