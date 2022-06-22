@@ -192,8 +192,8 @@ You can change how far it rotates by editing the `toValue`. You can change the i
 
 ```
         val rewindAnim = AnimatedVectorDrawableCompat.create(this, R.drawable.anim_rewind)!!
-        (it as ImageView).setImageDrawable(rewindAnim)
-        rewindButton.setOnClickListener {
+        rewindButtonImageView.setImageDrawable(rewindAnim)
+        rewindButtonImageView.setOnClickListener {
             it.post { rewindAnim.start() }
         }
 ```
