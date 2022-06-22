@@ -214,7 +214,7 @@ Note that the above GIF animation is a slowed-down version of the actual animati
 
 ## Fast-forward
 
-See note to [Rewind](#rewind) for how to customize the animation
+See note to [Rewind](#rewind) for how to customize the animation.
 
 ![GIF](https://github.com/shmueldabomb441/MediaPlayerAnimations/blob/4301ea88b7718a28e6482bf8ad61d7cc8b81a7cd/fast_forward_gif.gif)
 
