@@ -188,6 +188,16 @@ You can change how far it rotates by editing the `toValue`. You can change the i
 </animated-vector>
 ```
 
+### Kotlin
+
+```
+        val rewindAnim = AnimatedVectorDrawableCompat.create(this, R.drawable.anim_rewind)!!
+        (it as ImageView).setImageDrawable(rewindAnim)
+        rewindButton.setOnClickListener {
+            it.post { rewindAnim.start() }
+        }
+```
+
 ## Fast-forward
 
 See note to [Rewind](#rewind) for how to change the seconds interval text inside
