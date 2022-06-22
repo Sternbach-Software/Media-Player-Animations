@@ -132,8 +132,8 @@ Credits: https://github.com/videolan/vlc-android
 
 ## Rewind
 
-![GIF](https://github.com/shmueldabomb441/MediaPlayerAnimations/blob/4301ea88b7718a28e6482bf8ad61d7cc8b81a7cd/fast_forward_gif.gif)
+![GIF](https://github.com/shmueldabomb441/MediaPlayerAnimations/blob/4301ea88b7718a28e6482bf8ad61d7cc8b81a7cd/rewind_gif.gif)
 
 ## Fast-forward
 
-![LibVLC stack](https://images.videolan.org/images/libvlc_stack.png)
+![GIF](https://github.com/shmueldabomb441/MediaPlayerAnimations/blob/4301ea88b7718a28e6482bf8ad61d7cc8b81a7cd/fast_forward_gif.gif)
