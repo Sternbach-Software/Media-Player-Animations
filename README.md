@@ -140,7 +140,7 @@ Credits: https://github.com/videolan/vlc-android
 ![GIF](https://github.com/shmueldabomb441/MediaPlayerAnimations/blob/4301ea88b7718a28e6482bf8ad61d7cc8b81a7cd/rewind_gif.gif)
 
 
-You can change how far it rotates by editing the `toValue`. You can change the icon that rotates to a different icon (with a different interval) without changing the animation by just swapping out the `drawable` value and adding the `group` tag to the new animation.
+You can change how far it rotates by editing the `toValue`. You can change the icon that rotates to a different icon (with a different interval) without changing the animation by just swapping out the `android:drawable="@drawable/ic_rewind"` value in `anim_rewind.xml` and adding the `group` tag to the new icon in the same place as it is in `ic_rewind.xml`.
 
 ### /drawable/ic_rewind.xml
 
@@ -181,10 +181,10 @@ You can change how far it rotates by editing the `toValue`. You can change the i
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
-	android:drawable="@drawable/ic_baseline_replay_10" >
+	android:drawable="@drawable/ic_rewind" >
 	<target
 		android:name="rotationGroup"
-		android:animation="@animator/animation_rewind" />
+		android:animation="@animator/animator_rewind" />
 </animated-vector>
 ```
 
@@ -243,9 +243,9 @@ See note to [Rewind](#rewind) for how to change the seconds interval text inside
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
-	android:drawable="@drawable/ic_baseline_forward_10" >
+	android:drawable="@drawable/ic_forward" >
 	<target
 		android:name="rotationGroup"
-		android:animation="@animator/animation_fast_forward" />
+		android:animation="@animator/animator_fast_forward" />
 </animated-vector>
 ```
